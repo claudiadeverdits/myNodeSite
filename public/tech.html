@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Technology</title>
+        <link href="styles/style.css" rel="stylesheet" type="text/css" />
+        <link rel="icon" type="image/x-icon" href="images/logo_black.png">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400&display=swap');
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <img src="images/logo_black.png" alt="SAAR logo with a red graphic" id="logo" onclick="location.href='index.html'">
+            <div class="navlinks" id="navBar">
+                <a class="links" href="index.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="location.href='products.html'">Products
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a class="links" href="robochair.html">RoboChair</a>
+                        <a class="links" href="exollent.html">Exollent</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="location.href='tech.html'">Technology
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a class="links" href="ai-ml.html">AI/ML</a>
+                    </div>
+                </div>
+                <a class="links" href="">Investor Relations</a>
+                <div class="dropdown">
+                    <button class="dropbtn">More
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a class="links" href="">Account</a>
+                        <a class="links" href="">Careers</a>
+                        <a class="links" href="">Contact</a>
+                    </div>
+                </div>
+                <a href="javscript:void(0);" class="icon links" id="responsive" >&#9776;</a>
+            </div>
+        </div>
+        <div class="page_title">
+            <h1>Technology</h1>
+        </div>
+
+        <div class="product-content">
+            <div id="ai-ml" class="grow" onclick="location.href='ai-ml.html';">
+                <img src="images/Pyramid.PNG" alt="AI application pyramid" class="prod-img">
+                <h2>AI/ML</h2>
+                <p>The AI/ML ladder, as shown, is a unique SAAR vision of technological singularly, starting at a low lever of motion ability and ending up at a top, limitless, artificial creative thinking ability.</p>
+            </div>
+        </div>
+        
+        <script   src="https://code.jquery.com/jquery-3.7.1.min.js"   integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="   crossorigin="anonymous"></script>
+
+        <script>
+            window.jQuery || document.write('<script src="scripts/jquery-3.7.1.min"><\/script>')
+        </script>
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
