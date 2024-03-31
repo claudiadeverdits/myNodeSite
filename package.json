@@ -1,0 +1,17 @@
+{
+  "name": "mynodesite",
+  "version": "1.0.0",
+  "description": "SAAR",
+  "main": "expressServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Claudia Deverdits",
+  "license": "ISC",
+  "engines": {
+    "node": ">=v16"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
